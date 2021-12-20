@@ -1,0 +1,19 @@
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  /* color: '#000';
+  font-family: Inter;
+  background: #141414; */
+}
+.slick-slide div {
+  outline: none !important;
+}
+a {
+  text-decoration: none;
+  color: #29C56A;
+}
+.popup-content {
+  background: none !important;
+  border: none !important;
+  width: auto !important;
+}
