@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Title, FotoUki, ListWhite } from "./styled";
+import { Title, FotoUki, ListWhite, VideoYoutube } from "./styled";
 
 const SectionContainer = styled.section`
   background-image: url("/picture/bg_section_9.png");
@@ -44,27 +44,50 @@ export const TestimonyText = styled.p`
   }
 
   @media (max-width: 768px) {
-  font-size: 16px;
-  line-height: 29px;
-  text-align: center;
-  width: 100%;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    width: 100%;
 
-  ::before {
-   display: none;
+    ::before {
+      display: none;
+    }
+
+    ::after {
+      display: none;
+    }
   }
-
-  ::after {
-    display: none;
-  }
-}
-
 `;
 
 export default function SectionTestimoniSatu() {
+  const [view_video, setViewVideo] = useState(false);
+
+  // let video: any;
+  // if (typeof document !== "undefined") {
+  //   // will run in client's browser only
+  //   video = document.getElementById("video");
+  // }
+
+  // console.log(video);
+
   return (
     <SectionContainer>
       <Title>Yuk, simak video testimoni peserta program Asah Izzah berikut ini:</Title>
-      <FotoUki src={"/picture/uki_bawah.png"} />
+      <FotoUki
+        style={{ visibility: view_video ? "hidden" : "visible" }}
+        onClick={() => {
+          setViewVideo(true);
+        }}
+        src={"/picture/uki_bawah.png"}
+      />
+      <VideoYoutube
+        id="video"
+        style={{ display: !view_video ? "none" : "" }}
+        src="https://www.youtube.com/embed/ZeJHYuDqhUg?autoplay=1"
+        frameBorder="0"
+        allowFullScreen
+        allow="autoPlay"
+      />
       <ListWhite />
       <TestimonyText>
         Ingin tahu fiqih jual beli dan perlu mengerti bisnis supaya tahu halal/haramnya dan bisa membaca arah bisnis 5 –

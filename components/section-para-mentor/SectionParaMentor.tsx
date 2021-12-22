@@ -51,7 +51,7 @@ export default function SectionParaMentor() {
         </FlexContain>
         <FlexContain>
           <ImageMentor src={"/picture/mentor_4.png"} />
-          <NamaPengajar>Ustadz Muhammad</NamaPengajar>
+          <NamaPengajar>Ustadz Hamdi</NamaPengajar>
           <TextTestimoni>
             &quot;umar bin khatab mengatakan: dahulu kami adalah umat yang hinda kemudian Allah berikan kepada kami
             Izzah dengan Islam&quot; makan, barangsiapa yang mencari izzah. carilah di dalam islam!&quot;

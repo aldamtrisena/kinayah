@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import './_app.css';
+import TagManager from 'react-gtm-module'
 
 
 // import type { AppProps } from 'next/app'
@@ -14,6 +15,10 @@ import './_app.css';
 
 export default function MyApp(props: any) {
   const { Component, pageProps } = props;
+
+  useEffect(() => {
+    TagManager.initialize({ gtmId: 'GTM-WXL7JWS' });
+}, []);
 
   return (
     <React.Fragment>

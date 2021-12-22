@@ -4,12 +4,12 @@ import { ContainerSection, PriceText, Title, MarginBorder, SubTitle, Title2, Lin
 export default function SectionSegeraDaftar() {
   return (
     <ContainerSection>
-      <Title>SEGERA DAFTAR !</Title>
+      <Title onClick={() => window.open("https://trizzah.co.id/join/")}>SEGERA DAFTAR !</Title>
       <SubTitle>dan dapatkan biaya investasi spesial berikut:</SubTitle>
       <PriceText>
         Early Bird Price (Rp 3.750.000) : 19 - 30 Nov 2021 <br />
-        Discount Price (Rp 4.000.000) : 1 - 20 Dec 2021 <br />
-        Normal Price (Rp 4.500.000) : 21 Dec 2021 - 9 Jan 2022{" "}
+        Discount Price (Rp 4.000.000) : 1 - 31 Dec 2021 <br />
+        Harga Normal (Rp 4.500.000) : 1 - 9 Jan 2022
       </PriceText>
       <MarginBorder />
       <LineText />

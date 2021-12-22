@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-import { FotoUSerBawah, ListWhite2 } from "./styled";
+import { FotoUSerBawah, ListWhite2, VideoYoutube, VideoYoutube2 } from "./styled";
 
 const ContainerSection = styled.section`
   background-image: url("/picture/bg_section_10.png");
@@ -46,7 +46,6 @@ export const TestimonyText = styled.p`
     line-height: 29px;
     text-align: center;
     width: 100%;
-
     ::before {
       display: none;
     }
@@ -57,9 +56,25 @@ export const TestimonyText = styled.p`
   }
 `;
 export default function SectionTestimoni2() {
+  const [view_video, setViewVideo] = useState(false);
+
   return (
     <ContainerSection>
-      <FotoUSerBawah src={"/picture/user_bawah.png"} />
+      <FotoUSerBawah
+        style={{ visibility: view_video ? "hidden" : "visible" }}
+        onClick={() => {
+          setViewVideo(true);
+        }}
+        src={"/picture/user_bawah.png"}
+      />
+      <VideoYoutube2
+        id="myVideouki"
+        style={{ display: !view_video ? "none" : "" }}
+        src="https://www.youtube.com/embed/ZeJHYuDqhUg?autoplay=1"
+        frameBorder="0"
+        allowFullScreen
+        allow="autoplay;"
+      />
       <ListWhite2 />
       <TestimonyText>
         {" "}
