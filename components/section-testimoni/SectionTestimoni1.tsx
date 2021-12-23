@@ -16,7 +16,7 @@ const SectionContainer = styled.section`
   position: relative;
 
   @media (max-width: 768px) {
-    padding: 30px 16px;
+    padding: 20px 16px;
     box-sizing: border-box;
   }
 `;
@@ -44,10 +44,10 @@ export const TestimonyText = styled.p`
   }
 
   @media (max-width: 768px) {
-    font-size: 16px;
-    line-height: 29px;
+    font-size: 13px;
+    line-height: 22px;
     text-align: center;
-    width: 100%;
+    width: 92%;
 
     ::before {
       display: none;

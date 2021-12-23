@@ -22,8 +22,10 @@ export const Section1 = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
 
-    @media (max-width: 768px) {
-    height: 294px;
+  @media (max-width: 768px) {
+    height: 522px;
+    background-image: url("/picture/sec__mob.png");
+
     /* background-size: contain; */
   }
 `;
@@ -38,7 +40,9 @@ export const Section2 = styled.section`
   position: relative;
 
   @media (max-width: 768px) {
-    height: 294px;
+    height: 549px;
+    background-image: url("/picture/sec2_mob.png");
+
     /* background-size: contain; */
   }
 `;
@@ -53,7 +57,9 @@ export const Section4 = styled.section`
   z-index: -2;
 
   @media (max-width: 768px) {
-    height: 170px;
+    height: 326px;
+    background-image: url("/picture/Sec3.png");
+
     /* background-size: contain; */
   }
 `;

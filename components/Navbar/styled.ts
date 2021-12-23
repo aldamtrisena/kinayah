@@ -10,10 +10,10 @@ justify-content: center;
 `
 
 export const ImageLogo = styled.img`
-object-fit: cover;
-cursor: pointer;
+  object-fit: cover;
+  cursor: pointer;
 
-@media (max-width: 768px) {
-   width:150px;
-}
-`
+  @media (max-width: 768px) {
+    width: 120px;
+  }
+`;

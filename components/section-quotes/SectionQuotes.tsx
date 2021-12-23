@@ -13,9 +13,8 @@ const ContainerSection = styled.section`
   padding: 100px 0;
   box-sizing: border-box;
   @media (max-width: 768px) {
-    padding: 50px 0;
+    padding: 30px 0;
   }
-
 `;
 
 export default function SectionQuotes() {

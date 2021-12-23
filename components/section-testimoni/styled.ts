@@ -14,10 +14,10 @@ export const Title = styled.h1`
   margin-bottom: 70px;
 
   @media (max-width: 768px) {
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 26px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 29px;
   }
 `;
 
@@ -26,9 +26,10 @@ export const FotoUki = styled.img`
   z-index: 2;
   cursor: pointer;
   width: 77%;
+  border-radius: 20px;
 
   @media (max-width: 768px) {
-    width: 100%;
+    width: 90%;
   }
 `;
 
@@ -37,9 +38,9 @@ export const FotoUSerBawah = styled.img`
   z-index: 2;
   cursor: pointer;
   width: 77%;
-
+  border-radius: 20px;
   @media (max-width: 768px) {
-    width: 100%;
+    width: 90%;
   }
 `;
 
@@ -52,7 +53,21 @@ export const ListWhite = styled.div`
   top: 300px;
 
   @media (max-width: 768px) {
-    display: none;
+    border: 3px solid #fff;
+    border-radius: 19px;
+    height: 151px;
+    width: 92%;
+    position: absolute;
+    top: 119px;
+  }
+
+  @media (max-width: 375px) {
+    border: 3px solid #fff;
+    border-radius: 19px;
+    height: 137px;
+    width: 90%;
+    position: absolute;
+    top: 145px;
   }
 `;
 
@@ -64,7 +79,16 @@ export const ListWhite2 = styled.div`
   position: absolute;
   top: 114px;
   @media (max-width: 768px) {
-    display: none;
+    border: 3px solid #fff;
+    border-radius: 19px;
+    height: 151px;
+    width: 92%;
+    top: 51px;
+  }
+
+  @media (max-width: 375px) {
+    height: 144px;
+    top: 43px;
   }
 `;
 
@@ -76,11 +100,18 @@ export const VideoYoutube = styled.iframe`
   z-index: 3;
   outline: none;
   border: none;
+  border-radius: 20px;
   @media (max-width: 768px) {
-    height: 30%;
+    height: 37%;
     width: 85%;
     position: absolute;
-    top: 152px;
+    top: 111px;
+    border-radius: 20px;
+  }
+
+  @media (max-width: 375px) {
+    height: 34%;
+    top: 129px;
   }
 `;
 
@@ -92,6 +123,7 @@ export const VideoYoutube2 = styled.iframe`
   z-index: 3;
   outline: none;
   border: none;
+  border-radius: 20px;
   @media (max-width: 768px) {
     height: 30%;
     position: absolute;

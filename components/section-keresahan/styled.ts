@@ -10,7 +10,7 @@ export const Container = styled.section`
   overflow-y: hidden;
   z-index: 1;
   @media (max-width: 768px) {
-    padding: 20px 16px;
+    padding: 20px 24px;
   }
 `;
 
@@ -27,8 +27,8 @@ export const Title = styled.h1`
   color: #000000;
 
   @media (max-width: 768px) {
-    font-size: 24px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 29px;
     position: relative;
     z-index: 2;
   }
@@ -38,6 +38,18 @@ export const ContainerImageUp = styled.img`
   position: absolute;
   top: -221px;
   right: -5%;
+
+  @media (max-width: 765px) {
+    width: 50%;
+    top: -103px;
+    right: 0;
+  }
+
+  @media (max-width: 375px) {
+    width: 50%;
+    top: -98px;
+    right: 0;
+  }
 `;
 
 export const GridContain = styled.div`
@@ -61,6 +73,10 @@ export const ImageTokoh = styled.img`
   bottom: -54px;
   right: -5px;
   cursor: pointer;
+
+  @media (max-width: 375px) {
+    bottom: -38px;
+  }
 `;
 
 export const ContainerVideo = styled.div`
@@ -96,8 +112,8 @@ export const Paragraf = styled.p`
   color: #0d0c1f;
 
   @media (max-width: 768px) {
-    font-size: 18px;
-    line-height: 31px;
+    font-size: 14px;
+    line-height: 24px;
     text-align: center;
     margin-top: 16px;
   }
@@ -119,7 +135,10 @@ export const ContainerPicture = styled.div`
   height: auto;
   width: 100%;
   position: relative;
-  margin-bottom: 100px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 60px;
+  }
 `;
 
 export const ScaleUpButton = styled.div`
@@ -140,11 +159,12 @@ export const ScaleUpButton = styled.div`
   cursor: pointer;
 
   @media (max-width: 768px) {
-    font-size: 32px;
+    font-size: 22px;
     line-height: 46px;
     text-align: center;
-    width: 220px;
-    height: 111px;
+    width: 228px;
+    height: 69px;
+    border-radius: 13px;
   }
 `;
 
@@ -156,6 +176,9 @@ export const ContainerButton = styled.div`
   margin: 60px 0;
   z-index: 2;
   position: relative;
+  @media (max-width: 768px) {
+    margin: 33px 0 45px;
+  }
 `;
 
 export const ContainerImageDown = styled.img`
@@ -163,4 +186,14 @@ export const ContainerImageDown = styled.img`
   bottom: -6%;
   left: -1%;
   z-index: 1;
+
+  @media (max-width: 768px) {
+    width: 64%;
+    bottom: -2%;
+    left: -16%;
+  }
+
+  @media (max-width: 375px) {
+    bottom: -2%;
+  }
 `;

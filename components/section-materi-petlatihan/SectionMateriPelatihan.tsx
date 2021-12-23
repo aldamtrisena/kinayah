@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Container, Title, Ellipse, Paragraf, GridContain, ListItem, SubTiile } from "./styled";
+import { Container, Title, Ellipse, ContainerParagraf, Paragraf, GridContain, ListItem, SubTiile } from "./styled";
 import ImageBG from "/picture/bg_section_5.png";
 
 const ContainerSection = styled.section`
@@ -12,10 +12,10 @@ const ContainerSection = styled.section`
   padding: 40px 0 80px 0;
 
   @media (max-width: 768px) {
-   padding: 40px 16px;
-   box-sizing: border-box;
+    padding: 40px 16px;
+    box-sizing: border-box;
     /* background-size: contain; */
-}
+  }
 `;
 
 const dataListKiri = [
@@ -49,10 +49,10 @@ export default function SectionMateriPelatihan() {
           <SubTiile>Ilmu Fiqh Muamalah:</SubTiile>
           {dataListKanan.map((text, i) => {
             return (
-              <div key={i} style={{ display: "flex", alignItems: "center", gap: "14px" }}>
+              <ContainerParagraf key={i}>
                 <Ellipse />
                 <Paragraf>{text.text}</Paragraf>
-              </div>
+              </ContainerParagraf>
             );
           })}
         </ListItem>
@@ -60,10 +60,10 @@ export default function SectionMateriPelatihan() {
           <SubTiile>Ilmu Manajemen Bisnis:</SubTiile>
           {dataListKiri.map((text, i) => {
             return (
-              <div key={i} style={{ display: "flex", alignItems: "center", gap: "14px" }}>
+              <ContainerParagraf key={i}>
                 <Ellipse />
                 <Paragraf>{text.text}</Paragraf>
-              </div>
+              </ContainerParagraf>
             );
           })}
         </ListItem>

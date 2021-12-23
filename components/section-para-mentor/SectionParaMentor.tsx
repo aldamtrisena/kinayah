@@ -63,6 +63,11 @@ export default function SectionParaMentor() {
           <TextTestimoni>
             &quot;Business model memberikan gambaran yang komperhensif tentang; apa yang telah kita lakukan, yang sedang
             di lakukan, dan apa yang akan dilakukan&quot;
+            <br />
+            <br />
+            Di program Asah izzah kita akan mempelajari lebih dalam mengenai business model dan business plan yang akan
+            membantu anda untuk memahami pondasi bisnis anda. selain belajar, sobat izzah akan di dampingi dalam
+            pelaksanaan bisnis dan untuk proses scale up tR Izzah akan memberikan akses pendanaan untuk bisnis anda..
           </TextTestimoni>
         </FlexContain>
         <FlexContain>
@@ -73,13 +78,6 @@ export default function SectionParaMentor() {
             di program Asah Izzah kita akan memahami strategi pemasaran berbasis internet yang lebih efisien dalam
             kegiatannya namun efektif dalam hasilnya..&quot;
           </TextTestimoni>
-        </FlexContain>
-        <FlexContain>
-          <TextTesti2>
-            Di program Asah izzah kita akan mempelajari lebih dalam mengenai business model dan business plan yang akan
-            membantu anda untuk memahami pondasi bisnis anda. selain belajar, sobat izzah akan di dampingi dalam
-            pelaksanaan bisnis dan untuk proses scale up tR Izzah akan memberikan akses pendanaan untuk bisnis anda..
-          </TextTesti2>
         </FlexContain>
       </GridMentor>
       <ImageDownSquare src={"/picture/TR24 para mentor-07 1.png"} />

@@ -14,7 +14,7 @@ const ContainerSection = styled.section`
   align-items: center;
 
   @media (max-width: 768px) {
-    padding: 50px 16px;
+    padding: 30px 16px;
     box-sizing: border-box;
   }
 `;
