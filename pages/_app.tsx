@@ -27,7 +27,7 @@ export default function MyApp(props: any) {
         <title>{"Kinaya"}</title>
         <meta name="title" content={""} />
         <meta name="description" content={"description"} />
-        <meta name="keywords" content={"daftar izzah"} />
+        {/* <meta name="keywords" content={"daftar izzah"} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Menuju Izzah Tetap Ikhtiar- jaga izzah" />
         <meta property="og:url" content="https://daftar.trizzah.co.id/" />
@@ -38,7 +38,7 @@ export default function MyApp(props: any) {
         <meta
           property="og:image"
           content="https://terampil-public.s3.ap-southeast-1.amazonaws.com/assets/images/image_izzah.jpeg"
-        />
+        /> */}
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
