@@ -1,86 +1,22 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import styled from "styled-components";
 import Footer from "../components/Footer/Footer";
+import HeaderSection from "../components/HomePage/Section1/HeaderSection";
+import Section2Home from "../components/HomePage/Section2/Section2Home";
+import Section3Home from "../components/HomePage/Section3/Section3Home";
+import Section4Home from "../components/HomePage/Section4/Section4Home";
 import Navbar from "../components/Navbar/Navbar";
-import SectionDaftar from "../components/section-daftar/SectionDaftar";
-import SectionInfoProgram from "../components/section-info/InfoProgram";
-import SectionKeresahan from "../components/section-keresahan/SectionKeresahan";
-import SectionMateriPelatihan from "../components/section-materi-petlatihan/SectionMateriPelatihan";
-import SectionParaMentor from "../components/section-para-mentor/SectionParaMentor";
-import SectionParaPengajar from "../components/section-para-pengajar/SectionParaPengajar";
-import SectionQuotes from "../components/section-quotes/SectionQuotes";
-import SectionSegeraDaftar from "../components/section-segera-daftar/SectionSegeraDaftar";
-import SectionTestimoniSatu from "../components/section-testimoni/SectionTestimoni1";
-import SectionTestimoni2 from "../components/section-testimoni/SectionTestimoni2";
-
-export const Section1 = styled.section`
-  background-image: url("/picture/section_1_full.png");
-  width: 100%;
-  height: 1021px;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  @media (max-width: 768px) {
-    height: 522px;
-    background-image: url("/picture/sec__mob.png");
-
-    /* background-size: contain; */
-  }
-`;
-
-export const Section2 = styled.section`
-  background-image: url("/picture/section_2_full.png");
-  width: 100%;
-  height: 1021px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 2;
-  position: relative;
-
-  @media (max-width: 768px) {
-    height: 549px;
-    background-image: url("/picture/sec2_mob.png");
-
-    /* background-size: contain; */
-  }
-`;
-
-export const Section4 = styled.section`
-  background-image: url("/picture/section_4_full.png");
-  width: 100%;
-  height: 645px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: -2;
-
-  @media (max-width: 768px) {
-    height: 326px;
-    background-image: url("/picture/Sec3.png");
-
-    /* background-size: contain; */
-  }
-`;
+import InterestSection from "../components/SectionInterest/InterestSection";
 
 const Home: NextPage = () => {
   return (
     <main>
       <Navbar />
-      <Section1 />
-      <Section2 />
-      <SectionKeresahan />
-      <Section4 />
-      <SectionMateriPelatihan />
-      <SectionQuotes />
-      <SectionParaPengajar />
-      <SectionInfoProgram />
-      <SectionSegeraDaftar />
-      <SectionTestimoniSatu />
-      <SectionTestimoni2 />
-      <SectionParaMentor />
-      <SectionDaftar />
+      <HeaderSection />
+      <Section2Home />
+      <Section3Home />
+      <Section4Home />
+      <InterestSection />
       <Footer />
     </main>
   );

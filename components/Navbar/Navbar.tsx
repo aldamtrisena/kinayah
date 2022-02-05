@@ -1,12 +1,19 @@
-import Image from "next/image";
 import React from "react";
-import { Container, ImageLogo } from "./styled";
-import LogoIzah from "../../assets/picture/Logo_izzah.png";
-
-export default function Navbar() {
+import { NavbarContainer, FontNavbar, ImageLogo, FlexNavbar } from "./styled";
+const Navbar = () => {
   return (
-    <Container>
-      <ImageLogo onClick={() => window.open("https://trizzah.co.id")} src={"/picture/Logo_izzah.png"} alt="logo" />
-    </Container>
+    <NavbarContainer>
+      <FlexNavbar>
+        <ImageLogo src="/picture/logo.png" alt="logo" />
+        <FontNavbar>Home</FontNavbar>
+        <FontNavbar>About</FontNavbar>
+        <FontNavbar>Facilities</FontNavbar>
+        <FontNavbar>Unit Type</FontNavbar>
+        <FontNavbar>Location</FontNavbar>
+        <FontNavbar>Contact</FontNavbar>
+      </FlexNavbar>
+    </NavbarContainer>
   );
-}
+};
+
+export default Navbar;
