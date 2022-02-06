@@ -6,7 +6,7 @@ export const Container = styled.section`
 `;
 
 export const LinkName = styled.p`
-  font-family: NotoSans;
+  font-family: "Noto Sans Display", sans-serif;
   font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
@@ -29,7 +29,7 @@ export const BoxContent = styled.div`
 `;
 
 export const Paragraf = styled.p`
-  font-family: NotoSans;
+  font-family: "Noto Sans Display", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;

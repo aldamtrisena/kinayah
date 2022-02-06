@@ -12,7 +12,7 @@ export const BoxContent = styled.div`
 `;
 
 export const Paragaraf = styled.div`
-  font-family: NotoSans;
+  font-family: "Noto Sans Display", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;

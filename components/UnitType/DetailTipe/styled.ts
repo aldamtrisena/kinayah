@@ -24,7 +24,7 @@ export const Image = styled.img`
 `;
 
 export const Text = styled.p`
-  font-family: NotoSans;
+  font-family: "Noto Sans Display", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;

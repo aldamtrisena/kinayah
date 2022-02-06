@@ -15,7 +15,7 @@ export const BoxContent = styled.div`
 `;
 
 export const Text = styled.p`
-  font-family: NotoSans;
+  font-family: "Noto Sans Display", sans-serif;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -27,7 +27,7 @@ export const Text = styled.p`
 `;
 
 export const TextCluster = styled.p`
-  font-family: NotoSans;
+  font-family: "Noto Sans Display", sans-serif;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.33;

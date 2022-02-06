@@ -17,7 +17,7 @@ export const BoxContain = styled.div`
 `;
 
 export const TitleText = styled.p`
-  font-family: NotoSans;
+  font-family: "Noto Sans Display", sans-serif;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -29,7 +29,7 @@ export const TitleText = styled.p`
 `;
 
 export const SmallText = styled.p`
-  font-family: NotoSans;
+  font-family: "Noto Sans Display", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
