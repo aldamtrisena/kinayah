@@ -20,26 +20,35 @@ export const BackgroundImage = styled.section`
   justify-content: center;
   align-items: center;
 `;
+
+export const Image = styled.img`
+  max-width: 100%;
+  margin-top: 89px;
+  height: auto;
+`;
 const InterestSection = () => {
   return (
-    <BackgroundImage>
-      <BoxContent>
-        <div>
-          <Title>Are you interested?</Title>
-          <Subtitle>Leave your email and we will contact you as soon as possible</Subtitle>
-        </div>
-        <ContactContainer>
-          <ContainerInput>
-            <InputText placeholder="Your Email" />
-            <SendText>SEND</SendText>
-          </ContainerInput>
-          <WAContainer>
-            <IconWa src="/picture/whatsapp-icon.png" alt="wa" />
-            <WaText>WHATSAPP NOW</WaText>
-          </WAContainer>
-        </ContactContainer>
-      </BoxContent>
-    </BackgroundImage>
+    <>
+      <Image src="/picture/img-rumah.png" alt="rumah" />
+      <BackgroundImage>
+        <BoxContent>
+          <div>
+            <Title>Are you interested?</Title>
+            <Subtitle>Leave your email and we will contact you as soon as possible</Subtitle>
+          </div>
+          <ContactContainer>
+            <ContainerInput>
+              <InputText placeholder="Your Email" />
+              <SendText>SEND</SendText>
+            </ContainerInput>
+            <WAContainer>
+              <IconWa src="/picture/whatsapp-icon.png" alt="wa" />
+              <WaText>WHATSAPP NOW</WaText>
+            </WAContainer>
+          </ContactContainer>
+        </BoxContent>
+      </BackgroundImage>
+    </>
   );
 };
 

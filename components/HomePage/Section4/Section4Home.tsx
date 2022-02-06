@@ -26,7 +26,6 @@ const Section4Home = () => {
         <Download>DOWNLOAD OUR BROCHURE</Download>
       </BoxContain>
       <WhyComponent text="About Kinaya" top="100px" />
-      <Image src="/picture/img-rumah.png" alt="rumah" />
     </Container>
   );
 };

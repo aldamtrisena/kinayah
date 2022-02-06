@@ -7,6 +7,7 @@ import Section3Home from "../components/HomePage/Section3/Section3Home";
 import Section4Home from "../components/HomePage/Section4/Section4Home";
 import Navbar from "../components/Navbar/Navbar";
 import InterestSection from "../components/SectionInterest/InterestSection";
+import AllTipeUnitList from "../components/UnitType/AllTipeUnitList/AllTipeUnitList";
 
 const Home: NextPage = () => {
   return (

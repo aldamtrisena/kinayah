@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 interface PropsWhy {
   top: string;
-  text: string;
+  text: any;
 }
 
 const WhyComponent = (props: PropsWhy) => {
